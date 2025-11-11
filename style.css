@@ -1,32 +1,145 @@
 body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f8f9fa;
-  color: #333;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
+    font-family: 'Verdana', sans-serif;
+    background-color: #51747a;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 2rem;
 }
 
 header {
-  background: #007acc;
-  color: #fff;
-  padding: 2rem 1rem;
-  text-align: center;
+    background: #51747a;
+    padding: 1rem 1rem;
+    font-size: 20px;
 }
 
-h1, h2 {
-  margin-bottom: 0.5rem;
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
 }
 
-section {
-  padding: 1.5rem;
-  max-width: 800px;
-  margin: auto;
+#title {
+    font-size: 26px;
 }
 
-footer {
-  text-align: center;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+a {
+    text-decoration:none;
+    color: white;
+    font-weight: bold;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#home {
+    color: #a5b6f4;
+}
+
+#home:hover, a:hover {
+    color:#333;
+}
+
+h2 {
+    margin-bottom: 0.5px;
+    
+}
+
+/* Card container */
+.card {
+  background-color: #fffaf0;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 2rem;
+  width: 80%;
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+/* Header layout for title + icons */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Title styling */
+.card-title {
+  font-size: 1.8rem;
+  color: #333;
+  margin: 0;
+}
+
+/* Links section next to title */
+.card-links {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.card-links a {
+  color: #007acc;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.card-links a:hover {
+  color: #005f9e;
+  transform: scale(1.1);
+}
+
+.card-links i {
+  width: 22px;
+  height: 22px;
+  color: #333;
+}
+
+/* Content layout */
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Body text */
+.card-body {
+  flex: 1;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Icon on the right */
+.card-icon {
+  background-color: #007acc;
   padding: 1rem;
-  background: #eee;
-  font-size: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
+
+.card-icon:hover {
+  background-color: #005f9e;
+  transform: scale(1.1);
+}
+
+.card-icon i {
+  width: 24px;
+  height: 24px;
+}
+
