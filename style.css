@@ -87,7 +87,7 @@ h2 {
 }
 
 .card-links a {
-  color: #007acc;
+  color: 333;
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -95,11 +95,11 @@ h2 {
 }
 
 .card-links a:hover {
-  color: #005f9e;
   transform: scale(1.1);
 }
 
 .card-links i {
+  font-size: 22px;
   width: 22px;
   height: 22px;
   color: #333;
