@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "AI Scheduler",
+      "description": "An AI-powered daily planner that organizes tasks using OpenAI API.",
+      "github": "https://github.com/yourusername/ai-scheduler",
+      "demo": "https://yourusername.github.io/ai-scheduler",
+      "icon": "calendar"
+    },
+    {
+      "title": "Portfolio Website",
+      "description": "My personal portfolio built with HTML, CSS, and JavaScript.",
+      "github": "https://github.com/yourusername/portfolio",
+      "demo": "https://yourusername.github.io/portfolio",
+      "icon": "globe"
+    },
+    {
+      "title": "Weather App",
+      "description": "Displays live weather data using OpenWeatherMap API.",
+      "github": "https://github.com/yourusername/weather-app",
+      "demo": "https://yourusername.github.io/weather-app",
+      "icon": "cloud"
+    }
+  ]
+}
