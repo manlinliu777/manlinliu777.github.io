@@ -16,6 +16,7 @@ body {
 header {
     padding: 1rem 1rem;
     font-size: 20px;
+    text-shadow: 1px 2px #3c4667;
     margin-bottom: 50px;
 }
 
@@ -26,10 +27,10 @@ nav{
     align-items: center;
 }
 
-#title {
+#name {
     font-size: 32px;
     color: rgb(255, 255, 255);
-    background-color: rgb(36, 50, 53, 0.6);
+    /* background-color: rgb(36, 50, 53, 0.6); */
     padding: 3px;
 }
 
@@ -150,5 +151,37 @@ h2 {
 .card-icon i {
   width: 24px;
   height: 24px;
+}
+
+.title {
+  background-color: #333;
+  border-radius: 10px 70px;
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
+  outline: 2px solid #f1eedd;
+  padding: 1rem;
+  width: 80%;
+  max-width: 500px;
+  margin: 2rem auto;
+  margin-top: 5rem;
+}
+
+.title-text {
+  justify-self: center;
+  font-size: 1.8rem;
+  color: white;
+  margin: 0;
+}
+
+#Project {
+  border-radius: 80px 30px 30px 30px;
+}
+
+#Project .card-title {
+  justify-self: end;
+}
+
+#Project img {
+  width: 30%;
+  margin-top: 1rem
 }
 
